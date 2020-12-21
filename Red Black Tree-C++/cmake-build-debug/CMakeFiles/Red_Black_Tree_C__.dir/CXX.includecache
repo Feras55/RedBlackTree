@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/College/Year-3/First Semester/Algorithms Analysis and Design/Assignments/Assignment 1/Red Black Tree-C++/main.cpp
+iostream
+-
+string
+-
+algorithm
+-
+
