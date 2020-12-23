@@ -1,5 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="edfe1440-298b-45b5-943f-9bd74aaa0b5b" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,40 +35,59 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.2.4\plugins\maven\lib\maven3" />
+      </MavenGeneralSettings>
     </option>
   </component>
   <component name="ProjectId" id="1m0WnIlMh2UEKYVkJjyMZy2wzyS" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="xpath.settings" />
   </component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Noha Salah\Documents\GitHub\RedBlackTree\Red Black Tree - GUI\src\main\java" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.testGraphDraw">
     <configuration name="RedBlackTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="RedBlackTree" />
-      <module name="RBT" />
+      <module name="Red Black Tree - GUI" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testGraphDraw" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="testGraphDraw" />
+      <module name="Red Black Tree - GUI" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.testGraphDraw" />
         <item itemvalue="Application.RedBlackTree" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -61,34 +101,75 @@
     </task>
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="540" y="81" key="#Auto_Import" timestamp="1608641058012">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="540" y="81" key="#Auto_Import/0.0.1536.824@0.0.1536.824" timestamp="1608641058012" />
     <state x="398" y="90" key="#Project_Structure" timestamp="1608633015419">
       <screen x="74" y="0" width="1462" height="864" />
     </state>
     <state x="398" y="90" key="#Project_Structure/74.0.1462.864@74.0.1462.864" timestamp="1608633015419" />
-    <state width="1463" height="231" key="GridCell.Tab.0.bottom" timestamp="1608633583289">
-      <screen x="74" y="0" width="1462" height="864" />
+    <state width="1493" height="204" key="GridCell.Tab.0.bottom" timestamp="1608727091294">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state width="1493" height="204" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1608727091294" />
     <state width="1463" height="231" key="GridCell.Tab.0.bottom/74.0.1462.864@74.0.1462.864" timestamp="1608633583289" />
-    <state width="1463" height="231" key="GridCell.Tab.0.center" timestamp="1608633583289">
-      <screen x="74" y="0" width="1462" height="864" />
+    <state width="1493" height="204" key="GridCell.Tab.0.center" timestamp="1608727091293">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state width="1493" height="204" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1608727091293" />
     <state width="1463" height="231" key="GridCell.Tab.0.center/74.0.1462.864@74.0.1462.864" timestamp="1608633583289" />
-    <state width="1463" height="231" key="GridCell.Tab.0.left" timestamp="1608633583289">
-      <screen x="74" y="0" width="1462" height="864" />
+    <state width="1493" height="204" key="GridCell.Tab.0.left" timestamp="1608727091293">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state width="1493" height="204" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1608727091293" />
     <state width="1463" height="231" key="GridCell.Tab.0.left/74.0.1462.864@74.0.1462.864" timestamp="1608633583289" />
-    <state width="1463" height="231" key="GridCell.Tab.0.right" timestamp="1608633583289">
-      <screen x="74" y="0" width="1462" height="864" />
+    <state width="1493" height="204" key="GridCell.Tab.0.right" timestamp="1608727091293">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state width="1493" height="204" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1608727091293" />
     <state width="1463" height="231" key="GridCell.Tab.0.right/74.0.1462.864@74.0.1462.864" timestamp="1608633583289" />
-    <state x="314" y="13" key="SettingsEditor" timestamp="1608632918841">
-      <screen x="74" y="0" width="1462" height="864" />
+    <state width="724" height="258" key="GridCell.Tab.1.bottom" timestamp="1608655046037">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state width="724" height="258" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1608655046037" />
+    <state width="724" height="258" key="GridCell.Tab.1.center" timestamp="1608655046037">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="724" height="258" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1608655046037" />
+    <state width="724" height="258" key="GridCell.Tab.1.left" timestamp="1608655046037">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="724" height="258" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1608655046037" />
+    <state width="724" height="258" key="GridCell.Tab.1.right" timestamp="1608655046037">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="724" height="258" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1608655046037" />
+    <state x="252" y="0" key="SettingsEditor" timestamp="1608640927966">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="252" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1608640927966" />
     <state x="314" y="13" key="SettingsEditor/74.0.1462.864@74.0.1462.864" timestamp="1608632918841" />
     <state x="502" y="256" key="com.intellij.ide.util.TipDialog" timestamp="1608631170102">
       <screen x="74" y="0" width="1462" height="864" />
     </state>
     <state x="502" y="256" key="com.intellij.ide.util.TipDialog/74.0.1462.864@74.0.1462.864" timestamp="1608631170102" />
+    <state x="493" y="269" width="1134" height="572" key="dock-window-1" timestamp="1608640928311">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="493" y="269" width="1134" height="572" key="dock-window-1/0.0.1536.824@0.0.1536.824" timestamp="1608640928311" />
   </component>
 </project>

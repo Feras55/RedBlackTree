@@ -9,13 +9,20 @@ class Node {
     Node left; // pointer to left child
     Node right; // pointer to right child
     int color; // 1 . Red, 0 . Black
+    pair cor;
+    int space=100;
+    Node (){
+        color = 0;
+        left = null;
+        right = null;
+    }
 }
 
 
 // class RedBlackTree implements the operations in Red Black Tree
 public class RedBlackTree {
     private Node root;
-    private Node TNULL;
+    public Node TNULL;
 
     private void preOrderHelper(Node node) {
         if (node != TNULL) {
@@ -440,16 +447,6 @@ public class RedBlackTree {
     }
 
     public static void main(String [] args){
-        RedBlackTree bst = new RedBlackTree();
-        bst.insert(8);
-        bst.insert(18);
-        bst.insert(5);
-        bst.insert(15);
-        bst.insert(17);
-        bst.insert(25);
-        bst.insert(40);
-        bst.insert(80);
-        bst.deleteNode(25);
-        bst.prettyPrint();
+
     }
 }
