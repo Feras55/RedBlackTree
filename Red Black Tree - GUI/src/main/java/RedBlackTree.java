@@ -9,8 +9,6 @@ class Node {
     Node left; // pointer to left child
     Node right; // pointer to right child
     int color; // 1 . Red, 0 . Black
-    pair cor;
-    int space=100;
     Node (){
         color = 0;
         left = null;
@@ -103,7 +101,7 @@ public class RedBlackTree {
                     s = x.parent.left;
                 }
 
-                if (s.right.color == 0 && s.right.color == 0) {
+                if (s.right.color == 0) {
                     // case 3.2
                     s.color = 1;
                     x = x.parent;
@@ -441,6 +439,11 @@ public class RedBlackTree {
         deleteNodeHelper(this.root, data);
     }
 
+    // delete all tree nodes
+    public void clear() {
+        while(this.root!=TNULL)
+            deleteNodeHelper(this.root, this.root.data);
+    }
     // print the tree structure on the screen
     public void prettyPrint() {
         printHelper(this.root, "", true);

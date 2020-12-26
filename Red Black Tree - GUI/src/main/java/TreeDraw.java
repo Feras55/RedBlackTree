@@ -1,8 +1,7 @@
 
 import javax.swing.*;
 import java.awt.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
+
 
 class pair{
     int first;
@@ -12,7 +11,7 @@ class pair{
         second=s;
     }
 }
-public class GraphDraw extends JFrame {
+public class TreeDraw extends JFrame {
     RedBlackTree bst = new RedBlackTree();
 
     int width;
@@ -60,13 +59,13 @@ public class GraphDraw extends JFrame {
         }
     }
 
-    public GraphDraw() { //Constructor
+    public TreeDraw() { //Constructor
         this.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
         width = 30;
         height = 30;
     }
 
-    public GraphDraw(String name) { //Construct with label
+    public TreeDraw(String name) { //Construct with label
         this.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
         this.setName(name);
         this.setTitle(name);
@@ -82,11 +81,10 @@ public class GraphDraw extends JFrame {
 
 }
 
-class testGraphDraw {
+class testTreeDraw {
 
-    //Here is some example syntax for the GraphDraw class
     public static void main(String[] args) {
-        GraphDraw frame = new GraphDraw("Red Black Tree");
+        TreeDraw frame = new TreeDraw("Red Black Tree");
         frame.setSize(1000,800);
 
         frame.setResizable(false);
@@ -96,44 +94,46 @@ class testGraphDraw {
 
         frame.setSize(1000,600);
 
+        JPanel pan=new JPanel();//contain all the buttons and text Fields
 
 
-        frame.bst.insert(5);
-        frame.bst.insert(15);
-        frame.bst.insert(3);
 
-
-        JPanel pan=new JPanel();
+        //Add button,text Field and button action
         JButton add=new JButton("Add");
         JTextField addText=new JTextField();
-
-        JButton delete=new JButton("delete");
-        JTextField deleteText=new JTextField();
-
         addText.setColumns(10);
-        deleteText.setColumns(10);
-        add.addActionListener(new ActionListener(){
-            public void actionPerformed(ActionEvent e){
-                frame.bst.insert(Integer.parseInt(addText.getText()));
-                frame.repaint();
-            }
+        add.addActionListener(e -> {
+            frame.bst.insert(Integer.parseInt(addText.getText()));
+            frame.repaint();
         });
 
-        delete.addActionListener(new ActionListener(){
-            public void actionPerformed(ActionEvent e){
-                frame.bst.deleteNode(Integer.parseInt(deleteText.getText()));
-                frame.repaint();
-            }
+        //Delete button,text Field and button action
+        JButton delete=new JButton("Delete");
+        JTextField deleteText=new JTextField();
+        deleteText.setColumns(10);
+        delete.addActionListener(e -> {
+            frame.bst.deleteNode(Integer.parseInt(deleteText.getText()));
+            frame.repaint();
+        });
+
+        //Delete button,text Field and button action
+        JButton clear=new JButton("Clear All");
+        clear.addActionListener(e -> {
+            frame.bst.clear();
+            frame.repaint();
         });
 
         pan.add(addText);
         pan.add(add);
         pan.add(deleteText);
         pan.add(delete);
+        pan.add(clear);
+
+
         frame.add(pan);
 
         pan.setBounds(1,1,50,50);
+        pan.setVisible(true);
         frame.setVisible(true);
-        add.setVisible(true);
     }
 }
